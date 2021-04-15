@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Médias</title>
+    <link rel="stylesheet" href="teste.css">
+</head>
+<body>
+
+    <div id="caixa1">
+        <p>Selecione a média da sua escola: </p>
+            <select name="select" id="select">
+            
+                <option value="valor1" selected>Média</option>
+            
+                <option value="valor2" id="m1" >5.0</option>
+            
+                <option value="valor3" id="m2">5.5</option>
+
+                <option value="valor4" id="m3">6.0</option>
+
+                <option value="valor5" id="m4">7.0</option>
+          
+        </select>
+
+
+    </div>
+
+    <form id="cx">
+
+        <h1>Calculadora de Média</h1>
+
+        <input type="number" name="cx1" id="cx1" placeholder="Digite a 1° Nota"> +
+        
+        <input type="number" name="cx2" id="cx2" placeholder="Digite a 2° Nota"> +
+        
+        <input type="number" name="cx3" id="cx3" placeholder="Digite a 3° Nota"> +
+        
+        <input type="number" name="cx4" id="cx4" placeholder="Digite a 4° Nota"> =
+        
+        <input type="button" value="Gerar Nota" id="somar">
+
+        <input type="reset" value="Limpar" id="btn1">
+
+
+    </form>
+
+
+    <div id="result">Resultado</div>
+
+    <footer id="copy">
+
+        <p>&copy; Thiago Servoli</p>
+
+    </footer>
+
+    <script src="teste.js"></script>
+</body>
+</html>
